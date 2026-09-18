@@ -25,3 +25,11 @@
 The data wires should be put in a twisted configuration which naturally cancels out noise or the wires can be wrapped in a metal foil which will block exteral electric field.
 # Part 4 interfacing note
 Arduino runs on 5v whereas stm32 and esp32 run on 3.3v, hence for stm32/esp32 to communicate with arduino we need a logic level shifter for arduino which converts 5v logic to 3.3v logic
+
+
+# Baud rates with same and different baud rate
+Same baud rate
+![image](./image.png)
+
+Different baud rate
+![image](./image2.png)
